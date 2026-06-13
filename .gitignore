@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+screenshots/
+leads_prospectados.json
+old_leads.json

@@ -29,7 +29,7 @@ class NumberedCanvas(canvas.Canvas):
         
         # Header (on pages other than the cover/first page)
         if self._pageNumber > 1:
-            self.drawString(54, 750, "Plano de Preparação: FeiraViva para Micro SaaS")
+            self.drawString(54, 750, "Plano de Preparação: Juvion para Micro SaaS")
             self.setStrokeColor(colors.HexColor("#CBD5E1"))
             self.setLineWidth(0.5)
             self.line(54, 742, 558, 742)
@@ -123,7 +123,7 @@ def build_pdf():
     # --- PAGE 1: COVER ---
     story.append(Spacer(1, 100))
     story.append(Paragraph("Plano de Transição de Arquitetura", subtitle_style))
-    story.append(Paragraph("FEIRAVIVA PARA MICRO SAAS", title_style))
+    story.append(Paragraph("JUVION PARA MICRO SAAS", title_style))
     story.append(Paragraph("Preparação, infraestrutura e mapeamento de componentes para migração de script local para API na nuvem.", styles['Normal']))
     story.append(Spacer(1, 40))
     
@@ -147,7 +147,7 @@ def build_pdf():
     # --- PAGE 2: CONTEXT & CURRENT STATE ---
     story.append(Paragraph("1. Contexto do Sistema", h1_style))
     story.append(Paragraph(
-        "Atualmente, o projeto <b>FeiraViva</b> opera como uma suite de scripts locais em Python "
+        "Atualmente, o projeto <b>Juvion</b> opera como uma suite de scripts locais em Python "
         "com o objetivo de prospectar potenciais clientes (leads), analisar a presença digital deles (tecnologias, performance) "
         "e propor soluções de design/SEO via análise automatizada por inteligência artificial (Gemini API).",
         styles['Normal']

@@ -1,5 +1,5 @@
 """
-FeiraViva — gerador de mensagens de prospecção para Hot Leads.
+Juvion — gerador de mensagens de prospecção para Hot Leads.
 
 Filtra APENAS leads com status 'Hot Lead' (site ruim, lento ou inexistente).
 Ignora 'Banned' (site moderno, difícil de vender) e 'Unknown' (IA não avaliou).
